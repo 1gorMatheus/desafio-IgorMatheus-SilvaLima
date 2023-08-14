@@ -43,7 +43,7 @@ const cardapio = [
 
   class CaixaDaLanchonete {
     calcularValorDaCompra(metodoDePagamento, itens) {
-        const mensagensErro = [];
+        
 
         if (metodoDePagamento !== "debito" && metodoDePagamento !== "credito" && metodoDePagamento !== "dinheiro") {
             return ("Forma de pagamento inválida!");
